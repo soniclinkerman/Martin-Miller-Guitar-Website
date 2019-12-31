@@ -247,6 +247,11 @@ iframe{
     text-decoration: underline;
 }
 
+.album-img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Section5 */
 
 .MM-img{
