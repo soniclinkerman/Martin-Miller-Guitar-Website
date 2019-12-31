@@ -41,7 +41,7 @@ h1,h2,h3 {
 .spec {
     margin: 0;
     padding: 0;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 
@@ -297,7 +297,7 @@ iframe{
 /* Section7 */
 
 .section-seven{
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .section-seven-head{
@@ -323,8 +323,11 @@ iframe{
     }
     nav ul {
         display: flex;
-        justify-content: space-evenly;
-        background-color: black;    
+        justify-content: space-evenly;  
+    }
+
+    nav li {
+        border: none; 
     }
 
     .header-img{
@@ -337,12 +340,6 @@ iframe{
         width: 70%;
         display: block;
         margin: 0 auto;
-    }
-    
-    
-
-    footer {
-        display: block;
     }
     
 }
