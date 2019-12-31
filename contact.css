@@ -1,0 +1,66 @@
+.contact-title{
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.contact-text{
+    font-weight: 300;
+    margin-bottom: 3em;
+}
+
+.contact-email {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+.email-one, .email-two{
+    font-weight: 200;
+}
+
+.booking-section{
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+.booking-section-link {
+    color: #FFF;
+}
+
+.booking-section-link:hover {
+    color: rgb(212, 212, 212);
+
+}
+
+.email-link {
+    color: white;
+}
+
+.last {
+    padding-bottom: 7em;
+}
+
+/* Disclaimer */
+.disclaimer-title{
+    font-weight: 200;
+}
+
+.disclaimer-text{
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.imprint-text{
+    font-weight: 200;
+}
+
+.section-one, .german {
+    border-bottom: solid #C3CFD9;
+}
+
+@media (min-width: 800px){ 
+    .contact-title{
+        text-align: center;
+        margin-bottom:2em;
+    }
+}

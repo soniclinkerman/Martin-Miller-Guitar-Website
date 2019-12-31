@@ -1,0 +1,340 @@
+/*  Fonts
+-----
+font-family: 'Lato', sans-serif;
+ font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+}
+
+img {
+    max-width: 90%; 
+}
+
+.or{
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 0;
+}
+/* Typography */
+h1,h2,h3 {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+.logo {
+    text-align: center;
+}
+
+.title {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.spec {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+
+/* Container */
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+/* Navigation */
+
+nav {
+    margin-bottom: 0;
+}
+nav ul {
+    padding: 0;
+    background-color: rgb(24, 24, 24);
+    margin-bottom: 0;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+}
+
+nav li {
+    list-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+nav li:hover{
+    color: rgb(255, 156, 89);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.MM-header{
+    max-width: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.fab {
+    font-size: 2.5em;
+    margin-right: 0.2em;
+    color: #FFF;
+}
+
+.fa-youtube-square:hover{
+    color: red
+}
+
+.fa-instagram:hover {
+    color: rgb(180, 83, 143);
+
+}
+
+
+.fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+.section-text{
+    font-weight: 300;
+}
+
+.section-one-title{
+    text-align: center;
+}
+
+.yt-vids {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+iframe{
+ position: relative;
+ margin-bottom: 1em;
+}
+/* Buttons */
+
+.buy-button{
+    text-decoration: none;
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 1px;
+    margin-bottom: 2em;
+    color: black;
+}
+
+.buy-button:hover{
+    background-color: #F86854;
+    color: white;
+}
+
+
+.section-one, .section-two, .section-three, .section-four,.section-five, .section-seven{
+    border-bottom: 2px solid red;
+    margin-bottom: 3em;
+}
+
+/* Section2 */
+.section-two{
+    text-align: center;
+}
+
+.patreon-img{
+    max-width: 80%
+}
+
+.patreon-link{
+    color: #F86854;
+    text-decoration: none;
+}
+
+.patreon-link:hover{
+    text-decoration: underline;
+}
+
+.patreon-button {
+    max-width: 40%;
+    margin-bottom: 2em;
+}
+
+
+/* Section3 */
+.section-three {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.buy-button-pad {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+.s3-buy-button  {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.s3-buy-button li {
+    margin-bottom: 2em;
+    background-color: #FF5425;
+    padding: 1em;
+    color: white;
+}
+
+.s3-buy-button li:hover {
+    color: #FF5425;
+    background-color: white;
+}
+
+
+
+.stream {
+    padding: 1em;
+    font-size: 4em;
+}
+
+
+
+/* Section4 */
+
+.gear-text{
+    text-align: center;
+}
+
+.gear-link{
+    color: #FF5425;
+
+}
+
+.gear-link:hover{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+/* Section5 */
+
+.MM-img{
+    width: 30%;
+}
+
+.col-2{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2em;
+}
+
+.jamsponsor-body{
+    text-align: center;
+}
+
+.jtc-img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+/* Section6 */
+
+.people {
+    list-style-type: none;
+    padding: 0
+}
+.people li {
+    list-style: none;
+
+}
+
+.yt-section{
+    text-align: center;
+}
+
+.YT-Logo {
+    width: 20%;
+}
+
+/* Section7 */
+
+.section-seven{
+    margin-top: 3em;
+}
+
+.section-seven-head{
+    text-align: center;
+}
+
+.section-seven-img{
+    width:75%;
+}
+
+
+
+@media (min-width: 800px){
+ 
+    .logo {
+        text-align: start;
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+
+    .title{
+        margin-left: 10px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;    
+    }
+
+    .header-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .MM-header{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+
+    footer {
+        display: block;
+    }
+    
+}
