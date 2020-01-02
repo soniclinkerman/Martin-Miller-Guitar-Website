@@ -48,6 +48,10 @@
     margin-bottom: 2em;
 }
 
+.disclaimer-email-phone{
+    margin-bottom: 3em;
+}
+
 .imprint-text{
     font-weight: 300;
 }
@@ -55,6 +59,7 @@
 .section-one, .german {
     border-bottom: solid #C3CFD9;
 }
+
 
 @media (min-width: 800px){ 
     .contact-title{
