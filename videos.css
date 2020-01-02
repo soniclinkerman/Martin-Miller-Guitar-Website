@@ -1,0 +1,23 @@
+.yt-vid{
+    width: 70%;
+    
+}
+
+.yt-vid-marg {
+    margin-bottom: 2em;;
+}
+
+.yt-video{
+    display: flex;
+    justify-content: center;
+}
+
+
+.video {
+    width: 320px;
+    height: 230px;
+}
+
+.video-title{
+    text-decoration: underline;
+}
