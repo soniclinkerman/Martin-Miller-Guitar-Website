@@ -308,7 +308,12 @@ iframe{
     width:75%;
 }
 
+/* Other */
 
+.sm-link {
+    color: white;
+    font-weight: bold;
+}
 
 @media (min-width: 800px){
  
