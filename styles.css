@@ -106,7 +106,6 @@ footer {
 
 .fab {
     font-size: 2.5em;
-
     color: #FFF;
 }
 
@@ -122,6 +121,11 @@ footer {
 
 .fa-facebook-square:hover {
     color: #4267B2;
+}
+
+
+.fa-youtube-square, .fa-instagram, .fa-facebook-square{
+    margin-right: 0.2em;
 }
 
 .section-text{
