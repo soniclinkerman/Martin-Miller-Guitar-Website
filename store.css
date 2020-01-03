@@ -9,3 +9,24 @@
 .store-music{
     margin-top: 2em;
 }
+
+.store-title{
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+}
+
+.store-sponsor-body{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.store-section-six{
+    margin-bottom: 5em;
+}
+
+.store{
+    margin: 3em 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

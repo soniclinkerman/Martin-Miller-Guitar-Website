@@ -1,5 +1,7 @@
 .skype-title{
     text-align: center;
+    font-weight: 300;
+    font-size: 2.5em;
 }
 
 .transcription-title{
@@ -26,4 +28,41 @@
 
 .lessons-app {
     max-width: 100%;
+}
+
+.link-text{
+    color:white;
+}
+
+.school-img{
+    width:50%;
+}
+
+.school-text{
+    margin-left: 2em;
+}
+
+.lessons-two{
+    margin-top: 2em;
+    border-bottom: none;
+}
+
+@media (min-width: 800px){
+
+    .s3-buy-button{
+        margin-right: 1em;
+    }
+
+    .lessons-vid{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .transcription{
+        margin-right: 5em;
+    }
+
+    
+    
+
 }

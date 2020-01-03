@@ -166,7 +166,7 @@ iframe{
 
 
 .section-one, .section-two, .section-three, .section-four,.section-five, .section-seven{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid white;
     margin-bottom: 3em;
 }
 
@@ -237,6 +237,7 @@ iframe{
 
 /* Section4 */
 
+
 .gear-text{
     text-align: center;
 }
@@ -251,7 +252,7 @@ iframe{
     text-decoration: underline;
 }
 
-.album-img {
+.martin2-img {
     display: block;
     margin: 0 auto;
 }
@@ -277,6 +278,21 @@ iframe{
     display: block;
     margin: 0 auto;
   
+}
+
+.see-track-button{
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    
 }
 
 /* Section6 */
@@ -358,5 +374,74 @@ iframe{
         display: block;
         margin: 0 auto;
     }
+
+
+    .masterclass-vid{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .patreon-body{
+        display: flex;
+        margin-bottom: 3em;
+    }
+
+    /* Section3 */
+
+    .album-img{
+        width:50%;
+    }
+
+    .stream-services{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buy-button-pad{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /* Section4 */
     
+    .ibanez-main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .martin2-img{
+        width: 80%;
+        margin-right: 2em;
+    }
+
+    .section-four-text{
+        text-align: left;
+    }
+
+    /* Section5 */
+
+    .section5-img{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .jamtrack-head{
+        margin-bottom: 2em;
+    }
+
+    .jamsponsor-body{
+        margin-bottom: 3em;
+    }
+
+    /* Section6 */
+    .tom-goetze{
+        display: flex;
+    }
+
+    .tom-text{
+        margin-left: 2em;
+    }
+
 }

@@ -4,7 +4,7 @@
 }
 
 .yt-vid-marg {
-    margin-bottom: 2em;;
+    margin-bottom: 2em;
 }
 
 .yt-video{
@@ -14,11 +14,20 @@
 
 
 .video {
-    width: 320px;
-    height: 230px;
+    width: 420px;
+    height: 250px;
     border: 1px solid white;
 }
 
 .video-title{
     text-decoration: underline;
+}
+
+@media (min-width: 800px){
+    .col-3{
+        display: flex;
+        justify-content: center;
+    
+    }
+
 }
