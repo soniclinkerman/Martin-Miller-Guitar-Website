@@ -1,0 +1,49 @@
+.gear-text{
+    text-align: left;
+    font-weight: 300;;
+}
+
+.gear-head{
+    text-align: left;
+}
+
+.gear2-text{
+    width: 90%;
+}
+
+.amps-heading{
+    font-weight: 300;
+}
+
+.effects-pic{
+    margin-bottom: 2em;
+}
+
+.pic-three{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.last-sec{
+    margin-bottom: 3em;
+}
+
+.gear-button{
+    padding: 0.5em;
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+}
+
+.gear-button:hover{
+    color: coral;
+    background-color: white;
+}
+
+.gear-button:focus{
+    color: red;
+    background-color: coral;
+}
+
