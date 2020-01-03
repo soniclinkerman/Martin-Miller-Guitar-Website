@@ -47,3 +47,16 @@
     background-color: coral;
 }
 
+.gear-img-last{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.gear-head-main{
+    font-weight: 300;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
