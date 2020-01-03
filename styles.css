@@ -323,6 +323,10 @@ iframe{
     color:white;
 }
 
+.wcustomhtml{
+    width: 879px;
+}
+
 @media (min-width: 800px){
  
     .logo {

@@ -23,3 +23,7 @@
 .lessons {
     margin-top: 3em;
 }
+
+.lessons-app {
+    max-width: 100%;
+}
