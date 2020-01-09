@@ -5,10 +5,20 @@
 
 .gear-head{
     text-align: left;
+
+}
+
+.gear-img {
+    margin-bottom: 2em;
 }
 
 .gear2-text{
     width: 90%;
+}
+
+.pic-split {
+    display: flex;
+    justify-content: space-between;
 }
 
 .amps-heading{
@@ -58,5 +68,17 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+@media (min-width: 800px){
+    .yt-gear-vid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.amp-img {
+    display: flex;
+    justify-content: space-around;
+}
 }
 
